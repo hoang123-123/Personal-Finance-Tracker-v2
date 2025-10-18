@@ -1,0 +1,5 @@
+{
+  "name": "Personal Finance Tracker v2",
+  "description": "An application to track monthly income and daily expenses, providing analysis and visualizations of your financial habits.",
+  "requestFramePermissions": []
+}
