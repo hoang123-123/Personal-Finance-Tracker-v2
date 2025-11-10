@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💰</text></svg>" />
+    <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#000000" />
     <title>Personal Finance Tracker</title>
@@ -27,10 +27,11 @@
 <script type="importmap">
 {
   "imports": {
-    "recharts": "https://aistudiocdn.com/recharts@^3.2.1",
+    "recharts": "https://esm.sh/recharts@2.12.7?external=react,react-dom",
     "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
     "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0"
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom": "https://aistudiocdn.com/react-dom@^19.2.0"
   }
 }
 </script>
@@ -38,6 +39,6 @@
   <body class="bg-primary text-text-primary">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
+    <script type="module" src="/src/index.tsx"></script>
   </body>
 </html>
